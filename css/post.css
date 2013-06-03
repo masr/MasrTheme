@@ -1,0 +1,251 @@
+/** Index post *****/
+.index_post .post {
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    border-bottom: 2px dotted black;
+    clear: both;
+    overflow: hidden;
+}
+
+.index_post h3 {
+    font-size: 1.5em;
+    display: inline-block;
+    line-height: 1.2em;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+.index_post h3 a {
+    color: #EA6819;
+}
+
+.index_post .meta_date {
+    float: right;
+    width: 140px;
+    height: 40px;
+    background: #000;
+    color: #fff;
+    line-height: 40px;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.index_post .entry {
+    padding-top: 20px;
+    line-height: 1.6em;
+}
+
+.index_post .featured_block {
+    float: left;
+}
+
+.index_post a.post_featured {
+    margin: 0 20px 20px 10px;
+    display: block;
+}
+
+.index_post a.post_featured img {
+    width: 380px;
+    border: 5px solid #EAEAEA;
+}
+
+.index_post a.post_featured img:hover {
+    border: 5px solid #555555;
+}
+
+.index_post .excerpt {
+    float: left;
+    padding-left: 30px;
+    text-indent: 2em;
+    font-size: 1.2em;
+}
+
+.index_post .excerpt.narrow {
+    width: 380px;
+}
+
+.index_post .excerpt.wide {
+    width: 650px;
+}
+
+.index_post .post.category-other .excerpt {
+    width: 500px;
+}
+
+.index_post .meta_bottom {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.index_post .author{
+    float:right;
+    margin-right:60px;
+}
+.index_post .author a {
+    color: #0044ff;
+}
+
+.index_post .author .by {
+    font-size: 0.8em;
+}
+
+.index_post .post_tags {
+    margin-bottom: 10px;
+    width:600px;
+}
+
+.index_post .post_tags a {
+    color: #09b20d;
+}
+
+.index_post .post_edit_link {
+    font-size: 0.8em;
+}
+
+.index_post .comment_num {
+    font-size: 1em;
+}
+
+.index_post .post-categories {
+    margin-top: 10px;
+}
+
+.index_post .post-categories a {
+    color: #808080;
+    font-size: 1.7em;
+}
+
+.index_post .post-categories li {
+    padding-left: 40px;
+    background: url('../images/sun.gif') top left no-repeat;
+    height: 30px;
+    line-height: 30px;
+}
+
+.index_post   .par_page_navi {
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 1em;
+}
+
+.index_post  .par_page_navi a {
+    padding: 3px 8px;
+    margin: 2px;
+    text-decoration: none;
+    color: #888;
+    border: 1px solid #ccf;
+}
+
+.index_post  .par_page_navi a:hover, .index_post  .par_page_navi a.current {
+    border: 1px solid #6C85BE;
+    color: #6C85BE;
+    font-weight: bolder;
+}
+
+
+/** Single post **/
+
+.single_post .post {
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    border-bottom: 2px dotted black;
+    clear: both;
+    overflow: hidden;
+}
+
+.single_post h3 {
+    font-size: 1.5em;
+    display: inline-block;
+    line-height: 1.2em;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+.single_post h3 a {
+    color: #EA6819;
+}
+
+
+.single_post .meta_date {
+    float: right;
+    width: 140px;
+    height: 40px;
+    background: #000;
+    color: #fff;
+    line-height: 40px;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.single_post .entry {
+    padding-top: 20px;
+    line-height: 1.6em;
+}
+
+.single_post .entry p{
+    text-indent: 2em;
+    font-size: 1.1em;
+    line-height:1.6em;
+}
+
+.single_post .meta_bottom {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.single_post .author{
+    float:right;
+    margin-right:60px;
+}
+.single_post .author a {
+    color: #0044ff;
+}
+
+.single_post .author .by {
+    font-size: 0.8em;
+}
+
+.single_post .post_tags {
+    margin: 10px 0 10px 0;
+    width:600px;
+}
+
+.single_post .post_tags a {
+    color: #09b20d;
+}
+
+.single_post .post_edit_link {
+    font-size: 0.8em;
+}
+
+.single_post .comment_num {
+    font-size: 1em;
+}
+
+.single_post .post-categories {
+    margin-top: 10px;
+}
+
+.single_post .post-categories a {
+    color: #808080;
+    font-size: 1.7em;
+}
+
+.single_post .post-categories li {
+    padding-left: 40px;
+    background: url('../images/sun.gif') top left no-repeat;
+    height: 30px;
+    line-height: 30px;
+}

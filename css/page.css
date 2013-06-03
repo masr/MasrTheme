@@ -1,0 +1,22 @@
+/** 404 page **/
+#content .not_found {
+    padding-right: 0;
+    margin-left: 55px;
+}
+
+#content .not_found img.words {
+    width: 300px;
+    float: left;
+    display: block;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+#content .not_found img.cat {
+    float: right;
+    display: block
+}
+
+#dewplayer {
+    border: 1px solid #bbb;
+}

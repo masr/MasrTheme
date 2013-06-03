@@ -1,0 +1,20 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /blog/
+RewriteCond %{DOCUMENT_ROOT}/blog/index.cache.html -f
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^/?$ index.cache.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php [L]
+</IfModule>
+
+<IfModule mod_headers2.c>
+  header set Cache-Control "max-age=3600"
+  <FilesMatch "\.(flv|gif|jpg|jpeg|png|ico|swf|mp3|wma)$">
+  header set Cache-Control "max-age=108000"
+  </FilesMatch>
+</IfModule>
+
+
+

@@ -1,0 +1,132 @@
+/** Comment list **/
+
+#comments {
+    margin: 30px 0 0;
+    overflow: hidden;
+}
+
+#comments ul.children {
+    margin: 0;
+    padding: 10px 0 0;
+}
+
+#comments .vcard {
+    float: left;
+}
+
+#comments .vcard .avatar {
+    display: block;
+    float: left;
+    padding: 0 10px 0 0;
+}
+
+#comments .comment-meta {
+    padding: 0 0 20px 0;
+    float: right;
+
+}
+
+#comments .commentmetadata a {
+    display: block;
+}
+
+#comments li {
+    clear: both;
+    list-style-type: none;
+    border: 1px solid #DDDDDD;
+    background: #FFFFFF;
+    margin: 10px 0 0;
+    padding: 15px;
+}
+
+#comments ul.children li {
+    border: 1px solid #ddd;
+}
+
+#comments li.even {
+    background: #F3FAFF;
+}
+
+#comments li.odd {
+    background: #ddd;
+}
+
+#comments blockquote {
+    background: #CCCCCC;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+#comments .alert {
+    background: #FFFBD6;
+    border: 1px solid #EBE067;
+    margin: 5px 0;
+    padding: 5px;
+}
+
+#comments p {
+    margin: 0 0 10px;
+    padding: 0 0 0 75px;
+    clear: both;
+}
+
+#comments a.comment-edit-link {
+    display: none;
+}
+
+#comments .reply {
+    margin-top: 35px;
+}
+
+#comments a.comment-reply-link {
+    width: 42px;
+    height: 25px;
+    display: block;
+    border: 1px solid #000;
+    border-radius: 3px;
+    line-height: 25px;
+    text-align: center;
+    background: #eee;
+    color: #222;
+    font-size: 1em;
+}
+
+/** Comment form **/
+
+#respond {
+    margin-top: 30px;
+}
+
+#commentform {
+    margin: 5px 0 0 0;
+}
+
+#commentform #author, #respond #commentform #email, #respond #commentform #url {
+    width: 50%;
+    margin: 0 0 5px 0;
+    padding: 5px;
+}
+
+#commentform #comment {
+    width: 90%;
+    margin: 10px 0 15px 0;
+    padding: 5px;
+}
+
+#commentform p {
+    margin-bottom: 5px;
+}
+
+#commentform label {
+    font-size: 1.2em;
+    display: block;
+}
+
+#comments li {
+    border-radius: 12px;
+}
+
+#comments li.comment.depth-1 {
+    border: 1px solid #666;
+}
+

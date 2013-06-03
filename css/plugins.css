@@ -1,0 +1,127 @@
+#gallery {
+    margin: 10px auto;
+    width: 530px;
+}
+
+#gallery .slider_surround {
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    box-shadow: 4px 4px 7px #333333;
+}
+
+#gallery .slider_surround .stripViewer .panelContainer .panel ul {
+    text-align: left;
+    margin: 0 15px 0 30px;
+}
+
+#gallery .slider_surround .stripViewer {
+    position: relative;
+    overflow: hidden;
+}
+
+#gallery .slider_surround .stripViewer .panelContainer {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+#gallery .slider_surround .stripViewer .panelContainer .panel {
+    float: left;
+    height: 100%;
+    position: relative;
+    width: 528px;
+}
+
+#gallery .slider_surround .stripNavL, .stripNavR, .stripNav {
+    display: none;
+}
+
+#gallery .slider_surround .nav_thumb {
+    border: 1px solid black;
+    margin-right: 5px;
+    width: 60px;
+    height: 40px;
+}
+
+#gallery .slider_surround .movers_row {
+    margin: -43px 0 0 62px;
+}
+
+#gallery .slider_surround .movers_row div {
+    width: 20%;
+    float: left;
+}
+
+#gallery .slider_surround .movers_row div a.cross_link {
+    float: right;
+}
+
+#gallery .slider_surround .cross_link_0 {
+    position: relative;
+    top: 4px;
+}
+
+#gallery .slider_surround .photo_meta_data {
+    background: url('../images/transpBlack.png');
+    padding: 10px;
+    height: 55px;
+    margin-top: -75px;
+    position: relative;
+    z-index: 9999;
+    color: white;
+}
+
+#gallery .slider_surround .photo_meta_data span p {
+    font-size: 14px;
+    line-height: 1.1em;
+}
+
+#gallery .slider_surround .photo_meta_data a {
+    color: #ffff00
+}
+
+#gallery .slider_surround .cross_link {
+    display: block;
+    width: 62px;
+    margin-top: -14px;
+    position: relative;
+    padding-top: 15px;
+    z-index: 9999;
+}
+
+#gallery .slider_surround a {
+    outline: none;
+}
+
+#gallery .slider_surround ul {
+    list-style: square inside;
+}
+
+#gallery .slider_surround a, .slider_surround a:visited {
+    color: #729dff;
+    text-decoration: none;
+}
+
+#gallery .slider_surround a:hover, .slider_surround a:active {
+    color: white;
+}
+
+#gallery .slider_surround blockquote {
+    padding: 0 20px;
+    margin-left: 20px;
+    border-left: 20px solid #ccc;
+    font-size: 14px;
+    font-family: Georgia, serif;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+#content .syntaxhighlighter,
+#content .syntaxhighlighter div,
+#content .syntaxhighlighter code,
+#content .syntaxhighlighter table,
+#content .syntaxhighlighter table td,
+#content .syntaxhighlighter table tr,
+#content .syntaxhighlighter table tbody {
+    line-height: 1.5em !important;
+}

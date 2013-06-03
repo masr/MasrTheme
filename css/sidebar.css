@@ -1,0 +1,57 @@
+#sidebar li.widget {
+    margin: 10px 0 20px 0;
+    border-bottom: 1px dashed #fff;
+    padding-bottom: 10px;
+}
+
+#sidebar .widget h2 {
+    margin-bottom: 20px;
+}
+
+#sidebar .sbscr_panel a.rss {
+    text-indent: -1000em;
+    display: block;
+    background: url('../images/rss.gif');
+    width: 40px;
+    height: 37px;
+    float: left;
+}
+
+#sidebar .sbscr_panel a.comment_rss {
+    text-indent: -1000em;
+    display: block;
+    background: url('../images/comment_rss.gif') left bottom no-repeat;
+    width: 30px;
+    height: 37px;
+    float: left;
+    margin-left: 10px;
+}
+
+#sidebar li.sidebar_recent_comments {
+    border-bottom: none;
+}
+
+#sidebar .sidebar_recent_comments .comment {
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px dotted;
+    border-bottom-color: white;
+}
+
+#sidebar .sidebar_recent_comments .post_title {
+    font-size: 0.8em;
+}
+
+#sidebar .sidebar_recent_comments .txt {
+    font-size: 0.8em;
+    color: #ddd;
+}
+
+#sidebar li.widget-simpletags {
+    padding: 10px;
+}
+
+#sidebar .widget_links li {
+    padding-left: 30px;
+    background: url('../images/link-arrow.jpg') no-repeat;
+}

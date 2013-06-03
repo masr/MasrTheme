@@ -1,0 +1,122 @@
+body {
+    background: #1D1C1D;
+    color: #fff;
+    font-family: "Microsoft YaHei", "simsun", "​Verdana", "​Tahoma", "Helvetica", "​Sans-serif";
+    font-size: 15px;
+    text-align: left;
+    line-height: 20px;
+}
+
+/** Header **/
+#header_wrap {
+    background: url('../images/header_bg.gif') top left repeat-x;
+    border-radius: 0 0 20px 20px;
+}
+
+#header a.description {
+    font-family: 'Trebuchet MS', Tahoma, Verdana, Arial, sans-serif;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.6em;
+    height: 170px;
+    width: 1000px;
+    margin: 0 auto;
+    background: url('../images/header.png') bottom left no-repeat;
+    display: block;
+    padding-left: 50px; /*let the desc align with background pic*/
+    padding-top: 20px;
+}
+
+#header a.description:hover {
+    text-decoration: none;
+}
+
+#header a.description:first-letter {
+    font-weight: bolder;
+    font-size: 1.8em;
+    font-style: italic;
+}
+
+#header_wrap h1 {
+    display: none;
+}
+
+/** Navigation **/
+#navigation {
+    width: 950px;
+    margin: 15px auto;
+    position: relative;
+    left: -100px;
+}
+
+#navigation li {
+    float: left;
+    margin-right: 20px;
+}
+
+#navigation li a {
+    color: #eee;
+    min-width: 120px;
+    min-height: 40px;
+    display: block;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 6px;
+    background: gray;
+}
+
+#navigation li.item a {
+    color: #eee;
+    background: gray;
+}
+
+#navigation li.item a:hover {
+    background: white;
+    color: #2342fa;
+    text-decoration: none;
+}
+
+#navigation li.message a {
+    color: #fff;
+    background: #71bd1f;
+}
+
+#navigation li.message a:hover {
+    background: white;
+    color: #2342fa;
+    text-decoration: none;
+}
+
+/** Container **/
+#container {
+    margin: 0 auto;
+    width: 1270px;
+    color: #000;
+}
+
+#content {
+    background: #EAEAEA;
+    float: left;
+    width: 900px;
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#sidebar {
+    float: left;
+    width: 250px;
+    color: #fff;
+}
+
+#hope10_extra {
+    height: 222px;
+    width: 100px;
+    background: url('../images/hope10.gif') no-repeat;
+    position: fixed;
+    left: 15px;
+    top: 360px;
+    z-index: -1;
+}
